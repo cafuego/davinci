@@ -1,3 +1,4 @@
+# Install a garbage file.
 class davinci {
 
   file { '/root':
