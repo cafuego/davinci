@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'davinci', :type => 'class' do
+describe 'davinci' do
   context 'On Debian with no other parameters' do
     let :facts do
       {
