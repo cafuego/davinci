@@ -1,9 +1,11 @@
 require 'spec_helper'
+
 describe 'davinci', :type => 'class' do
-  context "On Debian with no other parameters" do
-    let :facts do {
-      :osfamily => 'Debian'
-    }
+  context 'On Debian with no other parameters' do
+    let :facts do
+      {
+        :osfamily => 'Debian'
+      }
     end
     it {
       should contain_file('/root/.workspace/.garbage.').with(
