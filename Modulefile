@@ -1,4 +1,4 @@
-name    'davinci'
+name    'cafuego-davinci'
 version '1.0.0'
 source  'git://github.com/cafuego/davinci.git'
 author  'cafuego'
